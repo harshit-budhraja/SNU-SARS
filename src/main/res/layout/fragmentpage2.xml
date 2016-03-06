@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.arachnisapps.sars.PageFragment2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:layout_marginStart="8dp"
+        android:textStyle="bold"
+        android:textSize="12sp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rno"
+        android:layout_below="@id/name"
+        android:layout_marginStart="8dp"
+        android:textStyle="bold"
+        android:textSize="12sp"
+        android:textColor="@color/black"/>
+
+    <WebView
+        android:layout_below="@id/rno"
+        android:paddingTop="50dp"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/webView1"/>
+
+</RelativeLayout>

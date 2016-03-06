@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.arachnisapps.sars.AboutActivity">
+
+    <include android:id="@+id/tool_bar" layout="@layout/tool_bar"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+        android:weightSum="1.0" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+        <ImageView android:layout_gravity="center" android:paddingBottom="2.0dip" android:layout_width="130.0dip"
+            android:layout_height="wrap_content" android:layout_marginTop="75dp"
+            android:src="@mipmap/ic_launcher" android:layout_weight="0.2" />
+        <TextView android:gravity="center_horizontal" android:paddingLeft="13dp" android:paddingRight="13dp" android:layout_gravity="center" android:id="@+id/textView1"
+            android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Student Attendance"
+            android:textColor="@color/DarkBlue" android:textSize="26dp" android:textStyle="italic" />
+        <TextView android:gravity="center_horizontal" android:paddingLeft="13dp" android:paddingRight="13dp" android:layout_gravity="center" android:id="@+id/textView2" android:paddingTop="5dp"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:textSize="16dp" android:textStyle="bold" android:text="Copyright © 2016 Harshit Budhraja" />
+        <TextView android:gravity="center_horizontal" android:paddingLeft="13dp" android:paddingRight="13dp" android:layout_gravity="fill_horizontal" android:id="@+id/textView3" android:paddingTop="50dp"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:textSize="13dp" android:textStyle="bold" android:text="App Name:- SARS" />
+        <TextView android:gravity="center_horizontal" android:paddingLeft="13dp" android:paddingRight="13dp" android:layout_gravity="fill_horizontal" android:id="@+id/textView4" android:paddingTop="5dp"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:textSize="13dp" android:textStyle="bold" android:text="App Version:- v1.3" />
+        <TextView android:gravity="center_horizontal" android:paddingLeft="13dp" android:paddingRight="13dp" android:layout_gravity="fill_horizontal" android:id="@+id/textView5" android:paddingTop="5dp"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:textSize="13dp" android:textStyle="bold" android:text="Initial Release Date:- 5th February, 2016" />
+
+
+        <TextView android:id="@+id/textView7" android:paddingTop="50dp"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:textSize="13dp" android:textStyle="italic|bold" android:paddingLeft="13dp" android:paddingRight="13dp" android:text="->This app is developed independently and is in no way affiliated with Shiv Nadar University." />
+        <TextView android:id="@+id/textView8" android:paddingTop="10dp"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:textSize="13dp" android:textStyle="italic|bold" android:paddingLeft="13dp" android:paddingRight="13dp" android:text="->The functionality of the app completely depends on the working of the online attendance on the university website. The developer shall not be held responsible, by any means, if the attendance doesn't get recorded or updated." />
+        <TextView android:id="@+id/textView9" android:paddingTop="10dp"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:textSize="13dp" android:textStyle="italic|bold" android:paddingLeft="13dp" android:paddingRight="13dp" android:text="->For further assistance related to this app, please do contact me at developer.harshit@gmail.com or just walk into my room 1B-106 without any hesitation." />
+        <TextView android:id="@+id/textView10" android:paddingTop="20dp"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:textSize="10dp" android:textStyle="italic" android:paddingLeft="13dp" android:paddingRight="13dp" android:text="->A special and sincere thanks to Sheikh Araf, for helping me out with this app." />
+    </LinearLayout>
+
+</RelativeLayout>

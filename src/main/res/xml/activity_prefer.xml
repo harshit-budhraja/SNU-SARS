@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="NOTIFICATIONS">
+    <CheckBoxPreference android:title="App Notifications"
+                      android:id="@+id/notifs"
+                      android:defaultValue="false"
+                      android:summary="Enable/Disable notifications"
+                      android:key="notifications" />
+  <ListPreference     android:title="Notification Frequency"
+                      android:dependency="notifications"
+                      android:summary="How often would you like to receive these notifications"
+                      android:key="freq"
+                      android:defaultValue="1"
+                      android:entries="@array/listArray"
+                      android:entryValues="@array/listValues" />
+        <Preference android:title="Notification time" android:dependency="notifications"
+                    android:enabled="false"
+                    android:summary="Default set is when the attendance gets initiated"
+                    android:id="@+id/timepicker" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
