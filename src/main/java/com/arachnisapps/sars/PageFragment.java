@@ -204,7 +204,7 @@ public class PageFragment extends Fragment {
 
             /*try {
                 Connection.Response connect = Jsoup.connect("https://markattendance.webapps.snu.edu.in/public/application/index/submit_attendance")
-                        .method(Connection.Method.GET)
+                        .method(Connection.Method.POST)
                         .validateTLSCertificates(false)
                         .cookies(loginform.cookies())
                         .execute();
