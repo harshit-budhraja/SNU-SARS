@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
         builder = new Notification.Builder(MainActivity.this);
         sharedPreferences= getSharedPreferences("MYPREFERENCES", 0);
         SharedPreferences.Editor editor = sharedPreferences.edit();
-        editor.putBoolean("connection_status", true);
+        editor.putBoolean("connection_status", false);
         editor.apply();
 
         //NEW ASYNC TASK
